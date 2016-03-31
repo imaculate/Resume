@@ -139,7 +139,7 @@
 	\inskip%
 	{\raggedleft\textsc{##1}\\[1pt]}
 	\ifstrempty{##2}{}{##2\\[2pt]}
-	{\Large\textit{##3}}
+	{\Large{\textbf{##3}}}
 	\medskip
 	\renewcommand\inskip{\bigskip}}}
     {\bigskip}
